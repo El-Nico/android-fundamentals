@@ -38,7 +38,7 @@ class GameWonFragment : Fragment() {
                     .navigate(GameWonFragmentDirections.actionGameWonFragmentToGameFragment())}
 
         val args = GameWonFragmentArgs.fromBundle(requireArguments())
-    Toast.makeText(context, "NumCorrect: ${args.numCorrect}, NumQuestions: ${args.numQuestions}", Toast.LENGTH_LONG).show()
+        Toast.makeText(context, "NumCorrect: ${args.numCorrect}, NumQuestions: ${args.numQuestions}", Toast.LENGTH_LONG).show()
 
         setHasOptionsMenu(true)
 
